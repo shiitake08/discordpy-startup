@@ -19,6 +19,6 @@ async def ping(ctx):
     
 @bot.command()
 async def kamaneko(ctx):
-    await ctx.boko('pong')
+    await ctx.send('boko')
 
 bot.run(token)
